@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">DeSL</string>
+    <string name="action_settings">settings</string>
+    <string name="action_add">add</string>
+
+    <string name="img_content_desc">Image</string>
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+
+    <string name="title_activity_main">Design Support Library</string>
+    <!-- Modes -->
+    <string-array name="modes">
+        <item>FloatingActionButton</item>
+        <item>TabLayout</item>
+        <item>TabLayout Extra</item>
+        <item>NavigationView</item>
+        <item>SnackBar</item>
+        <item>TextInputLayout</item>
+        <item>Collapsing Toolbar</item>
+        <item>Collapsing Toolbar + FAB</item>
+        <item>Bottom Sheet</item>
+        <item>Bottom Navigation 3</item>
+        <item>Bottom Navigation 5</item>
+    </string-array>
+
+    <string name="title_activity_tabs">TabLayout</string>
+    <string name="title_activity_tabs_extra">TabLayout Extra</string>
+    <string name="fragment_text">Fragment Start</string>
+    <string name="item_station_text">Metro</string>
+    <string-array name="metro_icons">
+        <item>@drawable/ic_bank</item>
+        <item>@drawable/ic_bus</item>
+        <item>@drawable/ic_cafe</item>
+        <item>@drawable/ic_hospital</item>
+        <item>@drawable/ic_train</item>
+        <item>@drawable/ic_hotel</item>
+        <item>@drawable/ic_store</item>
+        <item>@drawable/ic_underground</item>
+        <item>@drawable/ic_twitter</item>
+        <item>@drawable/ic_pinterest</item>
+        <item>@drawable/ic_linkedin</item>
+        <item>@drawable/ic_hospital</item>
+        <item>@drawable/ic_bank</item>
+        <item>@drawable/ic_bank</item>
+        <item>@drawable/ic_cafe</item>
+        <item>@drawable/ic_taxi</item>
+        <item>@drawable/ic_bank</item>
+        <item>@drawable/ic_facebook</item>
+        <item>@drawable/ic_taxi</item>
+    </string-array>
+
+
+
+    <string name="title_activity_nav">NavigationView</string>
+    <string name="city_about">Лондон — столица и крупнейший город Соединённого Королевства
+        Великобритании и Северной Ирландии. Административно образует регион Англии Большой Лондон,
+        разделённый на 33 самоуправляемых территории.</string>
+    <string name="city_name">Название Лондона восходит к названию города римского времени «Лондиний»
+        (лат. Londinium), происхождение которого неясно. Считается, что оно является доримским, заимствованным
+        в тех местах, где и поныне стоит Лондон. </string>
+    <string name="nav_item_chosen">Item chosen!</string>
+    <string name="nav_item_01">About City</string>
+    <string name="nav_item_02">London Name</string>
+    <string name="nav_item_03">City Map</string>
+    <string name="nav_sub_1_title">Infrastructure</string>
+    <string name="nav_sub_11">Banks</string>
+    <string name="nav_sub_12">Hotels</string>
+    <string name="nav_sub_13">Shopping Centres</string>
+    <string name="nav_sub_14">Caffes</string>
+    <string name="nav_sub_15">Hospitals</string>
+    <string name="nav_sub_2_title">Transport</string>
+    <string name="nav_sub_21">Bus</string>
+    <string name="nav_sub_22">Taxi</string>
+    <string name="nav_sub_23">Train</string>
+    <string name="nav_sub_24">Underground</string>
+    <string name="nav_profile">Tourist Cat</string>
+    <string name="nav_email">cat@mail.com</string>
+
+
+    <string name="title_activity_snackbar">SnackBar</string>
+    <string name="btn_snb_1">Snackbar Simple</string>
+    <string name="btn_snb_2">Snackbar with Action</string>
+    <string name="btn_snb_3">Snackbar Custom Color</string>
+    <string name="snb_text_1">Simple Snackbar!</string>
+    <string name="snb_text_2_1">Deleted!</string>
+    <string name="snb_action_2">Cancel</string>
+    <string name="snb_text_2_2">Undone!</string>
+    <string name="snb_text_3_1">No Internet!</string>
+    <string name="snb_action_3">Retry</string>
+    <string name="snb_text_3_2">Now it\'s OK!</string>
+
+    <string name="title_activity_text_input">TextInputLayout</string>
+    <string name="text_input_hint_1">Name</string>
+    <string name="text_input_hint_2">Phone</string>
+    <string name="text_input_hint_3">E-mail</string>
+    <string name="text_input_hint_4">Password</string>
+    <string name="input_empty">Пустые поля</string>
+    <string name="username_must">Необходимо имя!</string>
+    <string name="email_input_error">Неверный e-mail !</string>
+
+    <string name="title_activity_collaps">Collapsing Toolbar</string>
+    <string-array name="metros">
+        <item>Richmond</item>
+        <item>Kew Gardens</item>
+        <item>Gunnersburry</item>
+        <item>Ealing Broadway</item>
+        <item>Ealing Common</item>
+        <item>Acton Town</item>
+        <item>Chiswick Park</item>
+        <item>Turnham Green</item>
+        <item>Stamford Brook</item>
+        <item>Ravenscourt Park</item>
+        <item>Hammersmith</item>
+        <item>Barons Court</item>
+        <item>West Kensington</item>
+        <item>Wimbledon</item>
+        <item>Wimbledon Park</item>
+        <item>Southfields</item>
+        <item>East Putney</item>
+        <item>Putney Bridge</item>
+        <item>Parsons Green</item>
+    </string-array>
+    <string name="item_collaps_text">Underground!</string>
+    <string name="collapsing_toolbar_title">London Evening</string>
+    <string name="collaps_fab_text">FAB clicked!</string>
+
+    <string name="title_activity_bottom_sheet">BottomSheet</string>
+    <string name="bs_text">London Phone</string>
+    <string name="share_content">Share your content</string>
+    <string name="share_choose">Choose one of the social net:</string>
+    <string name="btn_fb">Facebook</string>
+    <string name="btn_gp">Google +</string>
+    <string name="btn_pt">Pinterest</string>
+    <string name="btn_ln">LinkedIn</string>
+    <string name="btn_tw">Twitter</string>
+    <string name="add_to_gallery">add to Gallery</string>
+    <string name="add_to_file">add to File</string>
+    <string name="add_to_sd">add to SD card</string>
+
+
+    <string name="title_activity_bnav">BottomNavigation</string>
+    <string name="title_activity_bnav_extra">BottomNavigation Extra</string>
+    <string name="bnav_item_info">Info</string>
+    <string name="bnav_item_transport">Transport</string>
+    <string name="bnav_item_place">Place</string>
+    <string name="bnav_item_phone">Phone</string>
+    <string name="bnav_item_name">Name</string>
+
+
+</resources>

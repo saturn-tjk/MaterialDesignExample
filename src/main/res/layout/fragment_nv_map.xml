@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.kh.em.desl.ui.navview.MapFragment">
+
+
+    <ImageView
+        android:id="@+id/city_map"
+        android:contentDescription="@string/img_content_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pic_city_map" />
+</FrameLayout>

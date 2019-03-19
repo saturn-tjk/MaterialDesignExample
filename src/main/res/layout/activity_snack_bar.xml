@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.kh.em.desl.ui.snackbar.SnackBarActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+<!--
+ Свойства  LinearLayout установлены для координации действий с appbar
+ -->
+
+        <Button
+            android:id="@+id/btn_snb_a"
+            style="@style/SnackBarBtn"
+            android:text="@string/btn_snb_1" />
+
+        <Button
+            android:id="@+id/btn_snb_b"
+            style="@style/SnackBarBtn"
+            android:text="@string/btn_snb_2" />
+
+        <Button
+            android:id="@+id/btn_snb_c"
+            style="@style/SnackBarBtn"
+            android:text="@string/btn_snb_3" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_action_add" />
+<!--
+ Установить мини FAB можно через app:fabSize="mini"
+ -->
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_city_about"
+            android:checked="true"
+            android:title="@string/nav_item_01" />
+        <!--
+        to be marked item
+         android:checked="true"
+         -->
+        <item
+            android:id="@+id/nav_city_name"
+            android:title="@string/nav_item_02" />
+        <item
+            android:id="@+id/nav_city_map"
+            android:title="@string/nav_item_03" />
+    </group>
+
+    <item android:title="@string/nav_sub_1_title">
+        <menu>
+            <item
+                android:id="@+id/nav_sub_11"
+                android:icon="@drawable/ic_bank"
+                android:title="@string/nav_sub_11" />
+            <item
+                android:id="@+id/nav_sub_12"
+                android:icon="@drawable/ic_hotel"
+                android:title="@string/nav_sub_12" />
+            <item
+                android:id="@+id/nav_sub_13"
+                android:icon="@drawable/ic_store"
+                android:title="@string/nav_sub_13" />
+            <item
+                android:id="@+id/nav_sub_14"
+                android:icon="@drawable/ic_cafe"
+                android:title="@string/nav_sub_14" />
+            <item
+                android:id="@+id/nav_sub_15"
+                android:icon="@drawable/ic_hospital"
+                android:title="@string/nav_sub_15" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/nav_sub_2_title">
+        <menu>
+            <item
+                android:id="@+id/nav_sub_21"
+                android:icon="@drawable/ic_bus"
+                android:title="@string/nav_sub_21" />
+            <item
+                android:id="@+id/nav_sub_22"
+                android:icon="@drawable/ic_taxi"
+                android:title="@string/nav_sub_22" />
+            <item
+                android:id="@+id/nav_sub_23"
+                android:icon="@drawable/ic_train"
+                android:title="@string/nav_sub_23" />
+            <item
+                android:id="@+id/nav_sub_24"
+                android:icon="@drawable/ic_underground"
+                android:title="@string/nav_sub_24" />
+        </menu>
+    </item>
+</menu>

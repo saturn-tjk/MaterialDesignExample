@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/bn_item_about"
+        android:enabled="true"
+        android:icon="@drawable/ic_info_24dp"
+        android:title="@string/bnav_item_info"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/bn_item_transport"
+        android:enabled="true"
+        android:icon="@drawable/ic_transport_24dp"
+        android:title="@string/bnav_item_transport"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/bn_item_place"
+        android:enabled="true"
+        android:icon="@drawable/ic_place_24dp"
+        android:title="@string/bnav_item_place"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bs_persistent"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:behavior_peekHeight="100dp"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+    <TextView
+        android:id="@+id/share_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/share_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        tools:text="@string/share_content" />
+
+    <TextView
+        android:id="@+id/share_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/share_choose"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_fb"
+        style="@style/BottomSheetPersistentBtn"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:drawableStart="@drawable/ic_facebook"
+        android:text="@string/btn_fb" />
+
+    <Button
+        android:id="@+id/btn_gp"
+        style="@style/BottomSheetPersistentBtn"
+        android:drawableLeft="@drawable/ic_google_plus"
+        android:drawableStart="@drawable/ic_google_plus"
+        android:text="@string/btn_gp" />
+
+
+    <Button
+        android:id="@+id/btn_ln"
+        style="@style/BottomSheetPersistentBtn"
+        android:drawableLeft="@drawable/ic_linkedin"
+        android:drawableStart="@drawable/ic_linkedin"
+        android:text="@string/btn_ln" />
+
+    <Button
+        android:id="@+id/btn_pt"
+        style="@style/BottomSheetPersistentBtn"
+        android:drawableLeft="@drawable/ic_pinterest"
+        android:drawableStart="@drawable/ic_pinterest"
+        android:text="@string/btn_pt" />
+
+    <Button
+        android:id="@+id/btn_tw"
+        style="@style/BottomSheetPersistentBtn"
+        android:drawableLeft="@drawable/ic_twitter"
+        android:drawableStart="@drawable/ic_twitter"
+        android:text="@string/btn_tw" />
+
+</LinearLayout>
+

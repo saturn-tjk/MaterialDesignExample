@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bs_modal"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <Button
+        android:id="@+id/btn_file"
+        style="@style/BottomSheetModalBtn"
+        android:text="@string/add_to_file"  />
+
+    <Button
+        android:id="@+id/btn_gallery"
+        style="@style/BottomSheetModalBtn"
+        android:text="@string/add_to_gallery" />
+
+    <Button
+        android:id="@+id/btn_sd"
+        style="@style/BottomSheetModalBtn"
+        android:text="@string/add_to_sd" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.kh.em.desl.ui.navview.NameFragment">
+
+        <ImageView
+            android:id="@+id/london_bridge"
+            android:contentDescription="@string/img_content_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/ic_london_bridge"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/city_name"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp" />
+
+</FrameLayout>
